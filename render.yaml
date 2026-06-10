@@ -1,0 +1,57 @@
+services:
+  - type: web
+    name: qloapps
+    runtime: docker
+    plan: free
+    region: oregon
+    
+    # Docker configuration
+    dockerfile: ./Dockerfile
+    dockerCommand: ""
+    
+    # Port configuration
+    port: 80
+    
+    # Environment variables
+    envVars:
+      - key: DB_HOST
+        value: qloapps-mysql.render.internal
+      - key: DB_NAME
+        value: qloapps
+      - key: DB_USER
+        value: qloapps
+      - key: DB_PASSWORD
+        generateValue: true
+      - key: DB_PORT
+        value: 3306
+      - key: APP_ENV
+        value: production
+    
+    # Auto-deploy on Git push
+    autoDeploy: true
+    
+    # Health check
+    healthCheckPath: /
+    
+    # Build configuration
+    buildCommand: "# No build needed, Docker handles it"
+
+  - type: pserv
+    name: qloapps-mysql
+    runtime: mysql:8.0
+    plan: free
+    region: oregon
+    
+    # MySQL configuration
+    ipAllowList: []
+    
+    # Environment variables
+    envVars:
+      - key: MYSQL_ROOT_PASSWORD
+        generateValue: true
+      - key: MYSQL_DATABASE
+        value: qloapps
+      - key: MYSQL_USER
+        value: qloapps
+      - key: MYSQL_PASSWORD
+        generateValue: true

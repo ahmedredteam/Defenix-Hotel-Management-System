@@ -1,0 +1,53 @@
+services:
+  # MySQL Database
+  mysql:
+    image: mysql:8.0
+    container_name: qloapps-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: qloapps
+      MYSQL_USER: qloapps
+      MYSQL_PASSWORD: qloapps123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - qloapps-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # PHP Application
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: qloapps-php
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      DB_HOST: mysql
+      DB_NAME: qloapps
+      DB_USER: qloapps
+      DB_PASSWORD: qloapps123
+      DB_PORT: 3306
+    ports:
+      - "8080:80"
+    volumes:
+      - qloapps_app:/var/www/html:cached
+    networks:
+      - qloapps-network
+    restart: unless-stopped
+
+networks:
+  qloapps-network:
+    driver: bridge
+
+volumes:
+  mysql_data:
+  qloapps_app:
