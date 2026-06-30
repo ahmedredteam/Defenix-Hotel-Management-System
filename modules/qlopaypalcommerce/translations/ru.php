@@ -2,7 +2,7 @@
 
 global $_MODULE;
 $_MODULE = array();
-$_MODULE['<{qlopaypalcommerce}prestashop>qlopaypalcommerce_dba5abcd5b8bb0ee23a6bde15a6e5fde'] = 'QloApps PayPal Checkout';
+$_MODULE['<{qlopaypalcommerce}prestashop>qlopaypalcommerce_dba5abcd5b8bb0ee23a6bde15a6e5fde'] = 'Defenix HMS PayPal Checkout';
 $_MODULE['<{qlopaypalcommerce}prestashop>qlopaypalcommerce_1639a5f6b16f8d4a04393dbdff0e05f6'] = 'Мгновенный глобальный бизнес.';
 $_MODULE['<{qlopaypalcommerce}prestashop>qlopaypalcommerce_dd5e9bb870ec616039f0fe9f2bd4726b'] = 'Единая интеграция для всех ваших потребностей в онлайн-платежах.';
 $_MODULE['<{qlopaypalcommerce}prestashop>qlopaypalcommerce_e654f7a86a4458b9cd662267e0f29b52'] = 'Преимущества';
@@ -47,13 +47,13 @@ $_MODULE['<{qlopaypalcommerce}prestashop>wkpaypalcommerceorder_1bca65212e4eba1b6
 $_MODULE['<{qlopaypalcommerce}prestashop>wkpaypalcommerceorder_53c3196bca5dde9b71e5be8287ae9cde'] = 'Счет PayPal получателя не подтвержден';
 $_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_a7a37ae71b70fe671308691cc6fe03dc'] = 'PayPal транзакции';
 $_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_1e860e56970a81a1ba3e1fcb7fccc846'] = 'Код заказа';
-$_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_55307c995094996234479b33fbc16bd1'] = 'Ссылка на заказ в QloApps транзакции PayPal';
+$_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_55307c995094996234479b33fbc16bd1'] = 'Ссылка на заказ в Defenix HMS транзакции PayPal';
 $_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_2b6ab125b0384eb33453b95c3f8e4ae6'] = 'Идентификатор транзакции PayPal';
 $_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_dae74f84a69dab4b8e04999f2460febf'] = 'Идентификатор транзакции PayPal';
 $_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_2763b4242763cbee7190de46d45d204f'] = 'Всего транзакции';
 $_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_e8453b7e2a7ccf2edeae228682a61b8d'] = 'Общая сумма, уплаченная в транзакции PayPal';
 $_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_ce26601dac0dea138b7295f02b7620a7'] = 'Покупатель';
-$_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_41a9d5e195648f50143f1c1abf5e00e6'] = 'Клиент в QloApps, выполнивший транзакцию PayPal.';
+$_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_41a9d5e195648f50143f1c1abf5e00e6'] = 'Клиент в Defenix HMS, выполнивший транзакцию PayPal.';
 $_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_ec53a8c4f07baed5d8825072c89799be'] = 'Положение дел';
 $_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_2ea78fadfafeae47ad786c288667eadf'] = 'Статус платежа';
 $_MODULE['<{qlopaypalcommerce}prestashop>adminpaypalcommercetransactioncontroller_3516529c1d87f5fde62d6841140f5dc0'] = 'Текущий статус транзакции PayPal.';
@@ -76,7 +76,7 @@ $_MODULE['<{qlopaypalcommerce}prestashop>view_6f097b8feb2af129c8f74c786c130c1c']
 $_MODULE['<{qlopaypalcommerce}prestashop>view_2b6ab125b0384eb33453b95c3f8e4ae6'] = 'Идентификатор транзакции PayPal';
 $_MODULE['<{qlopaypalcommerce}prestashop>view_157c928dae48d88d19fb2ced2afbdd71'] = 'Идентификатор заказа PayPal';
 $_MODULE['<{qlopaypalcommerce}prestashop>view_fdabf4e63a3cc1fe987269ff4e629148'] = 'Сумма транзакции';
-$_MODULE['<{qlopaypalcommerce}prestashop>view_e98b5a6351fecb55b2f890686f31856d'] = 'Справочник по заказу QloApps';
+$_MODULE['<{qlopaypalcommerce}prestashop>view_e98b5a6351fecb55b2f890686f31856d'] = 'Справочник по заказу Defenix HMS';
 $_MODULE['<{qlopaypalcommerce}prestashop>view_2ea989f83006e233627987293f4bde0a'] = 'Имя Клиента';
 $_MODULE['<{qlopaypalcommerce}prestashop>view_54945fdafec2c65f0f5561d65b165f1a'] = 'Электронная почта клиента';
 $_MODULE['<{qlopaypalcommerce}prestashop>view_475007c00d7c166cca01a44ecfd068ff'] = 'Просмотр клиента';

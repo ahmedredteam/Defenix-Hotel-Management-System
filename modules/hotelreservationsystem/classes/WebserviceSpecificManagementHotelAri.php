@@ -603,7 +603,7 @@ class WebserviceSpecificManagementHotelAri extends ObjectModel implements Webser
     private function getResponseXml($ariInfoArray, $dateWiseBreakdown = 0)
     {
         if ($ariInfoArray) {
-            // if date wise breakup is requested the parent node will be 'hotel_aris' as per other APIs in QloApps (orders > order)
+            // if date wise breakup is requested the parent node will be 'hotel_aris' as per other APIs in Defenix HMS (orders > order)
             if ($dateWiseBreakdown) {
                 $this->output .= $this->objOutput->getObjectRender()->renderNodeHeader('hotel_aris', array());
             }
@@ -743,13 +743,13 @@ class WebserviceSpecificManagementHotelAri extends ObjectModel implements Webser
                 $this->output .= $this->objOutput->getObjectRender()->renderNodeFooter('hotel_ari', array());
             }
 
-            // if date wise breakup is requested the parent node will be 'hotel_aris' as per other APIs in QloApps (orders > order)
+            // if date wise breakup is requested the parent node will be 'hotel_aris' as per other APIs in Defenix HMS (orders > order)
             if ($dateWiseBreakdown) {
                 $this->output .= $this->objOutput->getObjectRender()->renderNodeFooter('hotel_aris', array());
             }
         }
 
-        // wrap with the common parent header of QloApps xml api responses
+        // wrap with the common parent header of Defenix HMS xml api responses
         $this->output = $this->objOutput->getObjectRender()->overrideContent($this->output);
 
         return $this->output;
@@ -760,7 +760,7 @@ class WebserviceSpecificManagementHotelAri extends ObjectModel implements Webser
     {
         $ariReponse = [];
         if ($dateWiseBreakdown) {
-            // if date wise breakup is requested the parent node will be 'hotel_aris' as per other APIs in QloApps (orders > order)
+            // if date wise breakup is requested the parent node will be 'hotel_aris' as per other APIs in Defenix HMS (orders > order)
             $ariReponse['hotel_aris'] = array_values($ariInfoArray);
         } else {
             $ariReponse['hotel_ari'] = $ariInfoArray[0];

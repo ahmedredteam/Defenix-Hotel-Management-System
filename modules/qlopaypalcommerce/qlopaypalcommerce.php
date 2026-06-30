@@ -51,7 +51,7 @@ class QloPaypalCommerce extends PaymentModule
         $this->html = '';
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => '1.6');
 
-        $this->displayName = $this->l('QloApps PayPal Checkout');
+        $this->displayName = $this->l('Defenix HMS PayPal Checkout');
 
         $this->description = '<b>'.$this->l('An instant global business.').'</b><br>';
 

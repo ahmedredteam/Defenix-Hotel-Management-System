@@ -762,7 +762,7 @@ class WebserviceRequestCore
                 }
             }
             if ($this->hasErrors()) {
-                header('WWW-Authenticate: Basic realm="Welcome to QloApps Webservice, please enter the authentication key as the login. No password required."');
+                header('WWW-Authenticate: Basic realm="Welcome to Defenix HMS Webservice, please enter the authentication key as the login. No password required."');
                 $this->objOutput->setStatus(401);
                 return false;
             } else {
@@ -781,7 +781,7 @@ class WebserviceRequestCore
     protected function isActivated()
     {
         if (!Configuration::get('PS_WEBSERVICE')) {
-            $this->setError(503, 'The QloApps webservice is disabled. Please activate it in the QloApps Back Office', 22);
+            $this->setError(503, 'The Defenix HMS webservice is disabled. Please activate it in the Defenix HMS Back Office', 22);
             return false;
         }
         return true;

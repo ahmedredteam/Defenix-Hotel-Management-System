@@ -39,7 +39,7 @@ class HotelReservationSystem extends Module
         $this->bootstrap = true;
         parent::__construct();
         $this->displayName = $this->l('Hotel Booking and Reservation System');
-        $this->description = $this->l('This module is the backbone of QloApps and handles all booking processes on your website.');
+        $this->description = $this->l('This module is the backbone of Defenix HMS and handles all booking processes on your website.');
         $this->confirmUninstall = $this->l('This module should not be uninstalled under any circumstances. Doing so may cause undesired results.');
     }
 

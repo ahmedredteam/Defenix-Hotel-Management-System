@@ -17,7 +17,7 @@
  * @author Stephen Clay <steve@mrclay.org>
  */
 
-/* QloApps
+/* Defenix HMS
     * added a limit for all preg_replace_callback
 */
 class Minify_HTML

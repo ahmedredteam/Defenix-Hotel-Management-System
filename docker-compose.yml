@@ -9,7 +9,7 @@ services:
       MYSQL_USER: qloapps
       MYSQL_PASSWORD: qloapps123
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     networks:
@@ -37,7 +37,7 @@ services:
       DB_PASSWORD: qloapps123
       DB_PORT: 3306
     ports:
-      - "8080:80"
+      - "80:80"
     volumes:
       - qloapps_app:/var/www/html:cached
     networks:

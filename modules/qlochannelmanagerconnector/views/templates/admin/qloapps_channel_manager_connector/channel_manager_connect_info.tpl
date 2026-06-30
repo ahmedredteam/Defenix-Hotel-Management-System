@@ -33,7 +33,7 @@
                     </div>
 
                     <div class="connect_info_txt col-sm-12 margin-bottom-10">
-                        **{l s='Connection status with channel manager is showing according to the bookings fetched from QloApps Channel Manager.' mod='qlochannelmanagerconnector'}
+                        **{l s='Connection status with channel manager is showing according to the bookings fetched from Defenix HMS Channel Manager.' mod='qlochannelmanagerconnector'}
                     </div>
                 </div>
             </div>
@@ -53,10 +53,10 @@
                         <div class="qcm_info_block_content">
                             {l s='You can connect with channel manager through few simple steps' mod='qlochannelmanagerconnector'} :
                             <ul>
-                                <li>{l s='Enable QloApps webservice from Webservice tab.' mod='qlochannelmanagerconnector'} <a target="blank" href="{$link->getAdminLink('AdminWebservice')}"><i class="icon-external-link"></i></a></li>
+                                <li>{l s='Enable Defenix HMS webservice from Webservice tab.' mod='qlochannelmanagerconnector'} <a target="blank" href="{$link->getAdminLink('AdminWebservice')}"><i class="icon-external-link"></i></a></li>
                                 <li>{l s='Create your webservice key and enable all the APIs from Webservice tab.' mod='qlochannelmanagerconnector'} <a target="blank" href="{$link->getAdminLink('AdminWebservice')}"><i class="icon-external-link"></i></a></li>
-                                <li>{l s='Create account on Channel Manager' mod='qlochannelmanagerconnector'} <a target="blank" class="qcm-link" href="https://channels.qloapps.com/"><i class="icon-external-link"></i></a>. {l s=' Then enter QloApps webservice credentials under PMS settings of channel manager .' mod='qlochannelmanagerconnector'}</li>
-                                <li>{l s='Synchronize and map QloApps hotels and room types in channel manager.' mod='qlochannelmanagerconnector'}</li>
+                                <li>{l s='Create account on Channel Manager' mod='qlochannelmanagerconnector'} <a target="blank" class="qcm-link" href="https://channels.qloapps.com/"><i class="icon-external-link"></i></a>. {l s=' Then enter Defenix HMS webservice credentials under PMS settings of channel manager .' mod='qlochannelmanagerconnector'}</li>
+                                <li>{l s='Synchronize and map Defenix HMS hotels and room types in channel manager.' mod='qlochannelmanagerconnector'}</li>
                             </ul>
 
                             {l s='To read the connection process in detail, visit' mod='qlochannelmanagerconnector'} <a class="qcm-link" href="https://qloapps.com/qloapps-channel-manager/#section-24">{l s='Connection with PMS' mod='qlochannelmanagerconnector'}</a>
@@ -81,7 +81,7 @@
                         <div class="qcm_info_block_content">
                             {l s='A channel manager is a centralized software that synchronizes availabilities and details of the property across all platforms i.e. online travel agencies (OTA) and other online distribution channels.' mod='qlochannelmanagerconnector'}
                             <br>
-                            {l s='QloApps channel manager synchronizes inventory, rates, restrictions with all connected OTA channels and automated bookings sync connected OTAs and QloApps PMS.' mod='qlochannelmanagerconnector'}
+                            {l s='Defenix HMS channel manager synchronizes inventory, rates, restrictions with all connected OTA channels and automated bookings sync connected OTAs and Defenix HMS PMS.' mod='qlochannelmanagerconnector'}
                         </div>
                         <div class="qcm_info_explore">
                             {l s='For channel manager information in detail' mod='qlochannelmanagerconnector'} <a class="qcm-link" href="https://qloapps.com/channel-manager/">{l s='Explore Channel Manager' mod='qlochannelmanagerconnector'}</a>
@@ -108,8 +108,8 @@
                                 <li>{l s='Real-time sync with the world\'s most popular OTA channels like Booking, MakeMyTrip, Expedia, Airbnb, Agoda, Google Hotels, and many more.' mod='qlochannelmanagerconnector'}</li>
                                 <li>{l s='Provides an intuitive & analytical dashboard that brings useful data and stats.' mod='qlochannelmanagerconnector'}</li>
                                 <li>{l s='With the one-click rate and inventory updates, directly push availability and rates on the connected OTA channels.' mod='qlochannelmanagerconnector'}</li>
-                                <li>{l s='Already integrated with QloApps PMS that auto-synchronize inventories for the bookings created on QloApps PMS and connected OTA channels.' mod='qlochannelmanagerconnector'}</li>
-                                <li>{l s='Getting more property impressions by travellers on the world’s leading Online Travel Agencies as well as on the QloApps Hotel booking website will boost your online brand visibility and returns you more reservations.' mod='qlochannelmanagerconnector'}</li>
+                                <li>{l s='Already integrated with Defenix HMS PMS that auto-synchronize inventories for the bookings created on Defenix HMS PMS and connected OTA channels.' mod='qlochannelmanagerconnector'}</li>
+                                <li>{l s='Getting more property impressions by travellers on the world’s leading Online Travel Agencies as well as on the Defenix HMS Hotel booking website will boost your online brand visibility and returns you more reservations.' mod='qlochannelmanagerconnector'}</li>
                             </ul>
                         </div>
                         <div class="qcm_info_explore">

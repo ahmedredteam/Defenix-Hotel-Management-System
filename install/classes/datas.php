@@ -109,7 +109,7 @@ class Datas
         'shop_name' => array(
             'name' => 'name',
             'validate' => 'isGenericName',
-            'default' => 'QloApps',
+            'default' => 'Defenix HMS',
         ),
         'shop_activity'    => array(
             'name' => 'activity',
@@ -144,12 +144,12 @@ class Datas
         'show_license' => array(
             'name' => 'license',
             'default' => 0,
-            'help' => 'Show QloApps license'
+            'help' => 'Show Defenix HMS license'
         ),
         'newsletter' => array(
             'name' => 'newsletter',
             'default' => 1,
-            'help' => 'Get news from QloApps',
+            'help' => 'Get news from Defenix HMS',
         )
     );
 

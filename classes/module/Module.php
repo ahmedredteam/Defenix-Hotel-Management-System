@@ -43,7 +43,7 @@ abstract class ModuleCore
     /** @var array filled with known compliant PS versions */
     public $ps_versions_compliancy = array();
 
-    /** @var array filled with known compliant QloApps versions */
+    /** @var array filled with known compliant Defenix HMS versions */
     public $qloapps_versions_compliancy = array();
 
     /** @var array filled with modules needed for install */
@@ -270,7 +270,7 @@ abstract class ModuleCore
             $this->ps_versions_compliancy['max'] .= '.999.999';
         }
 
-        // for QloApps version compliancy
+        // for Defenix HMS version compliancy
         if (isset($this->qloapps_versions_compliancy) && !isset($this->qloapps_versions_compliancy['min'])) {
             $this->qloapps_versions_compliancy['min'] = '0.9.0.0';
         }
@@ -362,7 +362,7 @@ abstract class ModuleCore
 
         // Check PS version compliancy
         if (!$this->checkCompliancy()) {
-            $this->_errors[] = Tools::displayError('The version of your module is not compliant with your QloApps version.');
+            $this->_errors[] = Tools::displayError('The version of your module is not compliant with your Defenix HMS version.');
             return false;
         }
 

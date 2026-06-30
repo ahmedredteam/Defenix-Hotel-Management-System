@@ -29,6 +29,6 @@
     <div class="col-sm-7 channel_connection_info">
         <span class="channel_info_type">{l s='Connection status' mod='qlochannelmanagerconnector'} :</span> <span class="channel_connection_status">{l s='Connected' mod='qlochannelmanagerconnector'}</span>
         <span class="channel_info_type">{l s='Last updated' mod='qlochannelmanagerconnector'} :</span> <span>{$last_booking_datetime|escape:'htmlall':'UTF-8'}</span>
-        <span class="channel_info_type connection_criteria"><i id="connection_details" class="icon-info-circle" data-toggle="popover" data-content="{l s='Connection status with channel manager is showing according to the bookings fetched from QloApps Channel Manager.' mod='qlochannelmanagerconnector'}"></i></span>
+        <span class="channel_info_type connection_criteria"><i id="connection_details" class="icon-info-circle" data-toggle="popover" data-content="{l s='Connection status with channel manager is showing according to the bookings fetched from Defenix HMS Channel Manager.' mod='qlochannelmanagerconnector'}"></i></span>
     </div>
 </div>

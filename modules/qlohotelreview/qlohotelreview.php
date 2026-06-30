@@ -42,7 +42,7 @@ class QloHotelReview extends Module
         parent::__construct();
 
         $this->secure_key = Tools::encrypt($this->name);
-        $this->displayName = $this->l('QloApps Hotel Reviews');
+        $this->displayName = $this->l('Defenix HMS Hotel Reviews');
         $this->description = $this->l('This module allows guests to review hotels on specific categories.');
         $this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
     }

@@ -1203,7 +1203,7 @@ class FrontControllerCore extends Controller
      */
     public function initHeader()
     {
-        header('Powered-By: QloApps');
+        header('Powered-By: Defenix HMS');
 
         // Hooks are voluntary out the initialize array (need those variables already assigned)
         $this->context->smarty->assign(array(

@@ -41,7 +41,7 @@ class WkRoomSearchBlock extends Module
         $this->bootstrap = true;
         parent::__construct();
 
-        $this->displayName = $this->l('QloApps Room Search Panels');
+        $this->displayName = $this->l('Defenix HMS Room Search Panels');
         $this->description = $this->l('Room search blocks on different pages to search rooms as per user travel parameters.');
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
     }

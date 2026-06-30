@@ -169,7 +169,7 @@ class WkCustomNavigationLink extends ObjectModel
                 $modsElems['Testimonials'] = 'hotelTestimonialBlock';
             }
         } else {
-            // if QloApps is installing and $populateData = 1 then enter modules links directly
+            // if Defenix HMS is installing and $populateData = 1 then enter modules links directly
             if ($populateData) {
                 $modsElems['Interior'] = 'hotelInteriorBlock';
                 $modsElems['Amenities'] = 'hotelAmenitiesBlock';

@@ -2,7 +2,7 @@
 
 global $_MODULE;
 $_MODULE = array();
-$_MODULE['<{qlohotelreview}prestashop>qlohotelreview_3e402d99bae66c0ef534bcd89044d507'] = 'Avis sur QloApps Hotel';
+$_MODULE['<{qlohotelreview}prestashop>qlohotelreview_3e402d99bae66c0ef534bcd89044d507'] = 'Avis sur Defenix HMS Hotel';
 $_MODULE['<{qlohotelreview}prestashop>qlohotelreview_9269dcd46986ee01fa3d6b1726635e24'] = 'Ce module permet aux clients d\'évaluer les hôtels sur des catégories spécifiques.';
 $_MODULE['<{qlohotelreview}prestashop>qlohotelreview_876f23178c29dc2552c0b48bf23cd9bd'] = 'Êtes-vous sur de vouloir désinstaller?';
 $_MODULE['<{qlohotelreview}prestashop>qlohotelreview_9f5f2af7d30e6cd67f2053929c5b1804'] = 'Vous pouvez télécharger un maximum de %d images.';

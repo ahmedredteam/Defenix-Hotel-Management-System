@@ -41,7 +41,7 @@ class QloIcsExport extends PaymentModule
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
         $this->qloapps_versions_compliancy = array('min' => '1.7.0.0', 'max' => _QLOAPPS_VERSION_);
         
-        $this->displayName = 'QloApps Booking iCalendar (.ics) File Export';
+        $this->displayName = 'Defenix HMS Booking iCalendar (.ics) File Export';
         $this->description = $this->l('Using this module, Admin can export bookings iCalendar file in .ics format.');
 
         parent::__construct();

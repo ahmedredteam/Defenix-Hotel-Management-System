@@ -394,13 +394,13 @@ abstract class InstallControllerHttp
         return $this->language->getInformation('services');
     }
 
-    // Get link to QloApps tutorials for this language
+    // Get link to Defenix HMS tutorials for this language
     public function getTutorialsLink()
     {
         return $this->language->getInformation('tutorials');
     }
 
-    // Get link to QloApps must-have modules for this language
+    // Get link to Defenix HMS must-have modules for this language
     public function getInstallationGuideLink()
     {
         return $this->language->getInformation('installation_guide');

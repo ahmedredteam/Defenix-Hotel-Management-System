@@ -47,7 +47,7 @@ class AdminPaypalCommerceTransactionController extends ModuleAdminController
                 'title' => $this->l('Order Reference'),
                 'align' => 'center',
                 'havingFilter' => true,
-                'hint' => $this->l('Order reference in QloApps of the PayPal transaction'),
+                'hint' => $this->l('Order reference in Defenix HMS of the PayPal transaction'),
             ),
             'pp_transaction_id' => array(
                 'title' => $this->l('PayPal Transaction ID'),
@@ -71,7 +71,7 @@ class AdminPaypalCommerceTransactionController extends ModuleAdminController
                 'callback' => 'getCustomerInfo',
                 'havingFilter' => true,
                 'filter_key' => 'customer_name',
-                'hint' => $this->l('Customer in the QloApps who did PayPal transaction.'),
+                'hint' => $this->l('Customer in the Defenix HMS who did PayPal transaction.'),
             ),
             'pp_payment_status' => array(
                 'title' => $this->l('Status'),

@@ -169,7 +169,7 @@ class AdminPerformanceControllerCore extends AdminController
                 ),
                 array(
                     'type' => 'switch',
-                    'label' => $this->l('Disable non QloApps modules'),
+                    'label' => $this->l('Disable non Defenix HMS modules'),
                     'name' => 'native_module',
                     'class' => 't',
                     'is_bool' => true,
@@ -185,7 +185,7 @@ class AdminPerformanceControllerCore extends AdminController
                             'label' => $this->l('Disabled')
                         )
                     ),
-                    'hint' => $this->l('Enable or disable non QloApps Modules.')
+                    'hint' => $this->l('Enable or disable non Defenix HMS Modules.')
                 ),
                 array(
                     'type' => 'switch',

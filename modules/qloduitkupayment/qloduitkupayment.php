@@ -46,7 +46,7 @@ class QloDuitkuPayment extends PaymentModule
 
         parent::__construct();
 
-        $this->displayName = $this->l('QloApps Duitku Payment');
+        $this->displayName = $this->l('Defenix HMS Duitku Payment');
         $this->description = $this->l('This module allows guests to pay using Duitku payment gateway.');
         $this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
         $this->setLogger();

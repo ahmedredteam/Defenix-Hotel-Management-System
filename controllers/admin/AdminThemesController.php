@@ -1989,7 +1989,7 @@ class AdminThemesControllerCore extends AdminController
             }
         }
         if ($xml_version_too_old && !$this->_checkConfigForFeatures(array_keys(AdminThemes::$check_features))) {
-            $this->errors[] = Tools::displayError('The config.xml file has not been created for this version of QloApps.');
+            $this->errors[] = Tools::displayError('The config.xml file has not been created for this version of Defenix HMS.');
             $return = false;
         }
 
