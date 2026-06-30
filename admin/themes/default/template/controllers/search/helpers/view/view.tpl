@@ -295,20 +295,20 @@ $(function() {
 <div class="row">
 	<div class="col-lg-4">
 		<div class="panel">
-			<h3>{l s='Search qloapps.com/blog'}</h3>
-			<a href="https://qloapps.com/?s={$query}" class="btn btn-default _blank">{l s='Go to the documentation'}</a>
+			<h3>{l s='Search Defenix HMS.com/blog'}</h3>
+			<a href="https://Defenix HMS.com/?s={$query}" class="btn btn-default _blank">{l s='Go to the documentation'}</a>
 		</div>
 	</div>
 	<div class="col-lg-4">
 		<div class="panel">
-			<h3>{l s='Search qloapps.com/addons'}</h3>
-			<a href="https://qloapps.com/addons/?add={$query}" class="btn btn-default _blank">{l s='Go to Addons'}</a>
+			<h3>{l s='Search Defenix HMS.com/addons'}</h3>
+			<a href="https://Defenix HMS.com/addons/?add={$query}" class="btn btn-default _blank">{l s='Go to Addons'}</a>
 		</div>
 	</div>
 	<div class="col-lg-4">
 		<div class="panel">
-			<h3>{l s='Search forums.qloapps.com'}</h3>
-			<a href="https://forums.qloapps.com/search?term={$query}" class="btn btn-default _blank">{l s='Go to the Forum'}</a>
+			<h3>{l s='Search forums.Defenix HMS.com'}</h3>
+			<a href="https://forums.Defenix HMS.com/search?term={$query}" class="btn btn-default _blank">{l s='Go to the Forum'}</a>
 		</div>
 	</div>
 </div>

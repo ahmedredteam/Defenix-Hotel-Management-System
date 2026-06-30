@@ -128,19 +128,19 @@
                     <section class="dash_links widget panel">
                         <h3><i class="icon-link"></i> {l s="Help Center"}</h3>
                             <dl>
-                                <dt><a href="https://docs.qloapps.com/" class="_blank">{l s="Official Documentation"}</a></dt>
-                                <dd>{l s="QloApps User Guide"}</dd>
+                                <dt><a href="https://docs.Defenix HMS.com/" class="_blank">{l s="Official Documentation"}</a></dt>
+                                <dd>{l s="Defenix HMS User Guide"}</dd>
                             </dl>
                             <dl>
-                                <dt><a href="https://forums.qloapps.com/" class="_blank">{l s="QloApps Forum"}</a></dt>
-                                <dd>{l s="Connect with the QloApps community"}</dd>
+                                <dt><a href="https://forums.Defenix HMS.com/" class="_blank">{l s="Defenix HMS Forum"}</a></dt>
+                                <dd>{l s="Connect with the Defenix HMS community"}</dd>
                             </dl>
                             <dl>
-                                <dt><a href="https://qloapps.com/addons/" class="_blank">{l s="QloApps Addons"}</a></dt>
-                                <dd>{l s="Enhance your store QloApps modules"}</dd>
+                                <dt><a href="https://Defenix HMS.com/addons/" class="_blank">{l s="Defenix HMS Addons"}</a></dt>
+                                <dd>{l s="Enhance your store Defenix HMS modules"}</dd>
                             </dl>
                             <dl>
-                                <dt><a href="https://qloapps.com/contact/" class="_blank">{l s="Contact Us!"}</a></dt>
+                                <dt><a href="https://Defenix HMS.com/contact/" class="_blank">{l s="Contact Us!"}</a></dt>
                                 <dd>{l s="Contact us for any help"}</dd>
                             </dl>
                     </section>

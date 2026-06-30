@@ -25,9 +25,9 @@
 <div id="login-panel">
 	<div id="login-header">
 		<h1 class="text-center">
-			<img id="logo" src="{$img_dir}qloapps@2x.png" width="123px" alt="PrestaShop" />
+			<img id="logo" src="{$img_dir}Defenix HMS@2x.png" width="123px" alt="PrestaShop" />
 		</h1>
-		<div class="text-center">{$qloapps_version}</div>
+		<div class="text-center">{$Defenix HMS_version}</div>
 		<div id="error" class="hide alert alert-danger">
 		{if isset($errors)}
 			<h4>
@@ -49,7 +49,7 @@
 		<div class="alert alert-warning">{$warningSslMessage}</div>
 		{/if}
 	</div>
-	<div id="shop-img"><img src="{$img_dir}qloapps-login@2x.png" alt="{$shop_name}" width="136px" height="136px" /></div>
+	<div id="shop-img"><img src="{$img_dir}Defenix HMS-login@2x.png" alt="{$shop_name}" width="136px" height="136px" /></div>
 	<div class="flip-container">
 		<div class="flipper">
 			<div class="front panel">
@@ -141,10 +141,10 @@
 			</a>
 		</p>
 		<p class="text-center">
-			<a class="link-social link-twitter _blank" href="https://twitter.com/qloapps" title="Twitter">
+			<a class="link-social link-twitter _blank" href="https://twitter.com/Defenix HMS" title="Twitter">
 				<i class="icon-twitter"></i>
 			</a>
-			<a class="link-social link-facebook _blank" href="https://www.facebook.com/qloapps" title="Facebook">
+			<a class="link-social link-facebook _blank" href="https://www.facebook.com/Defenix HMS" title="Facebook">
 				<i class="icon-facebook"></i>
 			</a>
 			<a class="link-social link-github _blank" href="https://github.com/webkul/hotelcommerce" title="Github">

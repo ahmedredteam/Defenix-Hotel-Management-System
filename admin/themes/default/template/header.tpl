@@ -122,7 +122,7 @@
 					<i class="icon-reorder"></i>
 				</button>
 				<a id="header_shopversion" href="{$default_tab_link|escape:'html':'UTF-8'}">
-					<span id="shop_version">{$qloapps_version}</span>
+					<span id="shop_version">{$Defenix HMS_version}</span>
 				</a>
 				{* Shop *}
 				{if isset($is_multishop) && $is_multishop && $shop_list && (isset($multishop_context) && $multishop_context & Shop::CONTEXT_GROUP || $multishop_context & Shop::CONTEXT_SHOP)}
@@ -311,12 +311,12 @@
 					{/if}
 
 					{if isset($upgrade_info->update_available) && $upgrade_info->update_available > 0}
-						<li class="hidden-md hidden-sm hidden-xs"><a href="{$upgrade_info->upgrade_url}">{l s='QloApps Update Availabe:'} {$upgrade_info->latest_availabe}</a></li>
+						<li class="hidden-md hidden-sm hidden-xs"><a href="{$upgrade_info->upgrade_url}">{l s='Defenix HMS Update Availabe:'} {$upgrade_info->latest_availabe}</a></li>
 					{/if}
 					<li class="hidden-sm hidden-xs">
-						<a target="_blank" href="https://qloapps.com/addons/" class="toolbar_btn" title="{l s='Explore QloApps Addons'}">
+						<a target="_blank" href="https://Defenix HMS.com/addons/" class="toolbar_btn" title="{l s='Explore Defenix HMS Addons'}">
 							<i class="icon-chain-broken"></i>
-							{l s='Explore QloApps Addons'}
+							{l s='Explore Defenix HMS Addons'}
 						</a>
 					</li>
 					{if {$base_url}}

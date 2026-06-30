@@ -36,10 +36,10 @@
 
 	<div class="col-sm-2 hidden-xs">
 		<div class="social-networks">
-			<a class="link-social link-twitter _blank" href="https://twitter.com/qloapps" title="Twitter">
+			<a class="link-social link-twitter _blank" href="https://twitter.com/Defenix HMS" title="Twitter">
 				<i class="icon-twitter"></i>
 			</a>
-			<a class="link-social link-facebook _blank" href="https://www.facebook.com/qloapps" title="Facebook">
+			<a class="link-social link-facebook _blank" href="https://www.facebook.com/Defenix HMS" title="Facebook">
 				<i class="icon-facebook"></i>
 			</a>
 			<a class="link-social link-github _blank" href="https://github.com/webkul/hotelcommerce" title="Github">
@@ -52,27 +52,27 @@
 	</div>
 	<div class="col-sm-5">
 		<div class="footer-contact">
-			<a href="https://qloapps.com/contact/" class="footer_link _blank">
+			<a href="https://Defenix HMS.com/contact/" class="footer_link _blank">
 				<i class="icon-envelope"></i>
 				{l s='Contact'}
 			</a>
 			/&nbsp;
-			<a href="https://forums.qloapps.com/category/7/bug-report" class="footer_link _blank">
+			<a href="https://forums.Defenix HMS.com/category/7/bug-report" class="footer_link _blank">
 				<i class="icon-bug"></i>
 				{l s='Bug Tracker'}
 			</a>
 			/&nbsp;
-			<a href="https://forums.qloapps.com/" class="footer_link _blank">
+			<a href="https://forums.Defenix HMS.com/" class="footer_link _blank">
 				<i class="icon-comments"></i>
 				{l s='Forum'}
 			</a>
 			/&nbsp;
-			<a href="https://qloapps.com/addons/" class="footer_link _blank">
+			<a href="https://Defenix HMS.com/addons/" class="footer_link _blank">
 				<i class="icon-puzzle-piece"></i>
 				{l s='Addons'}
 			</a>
 			/&nbsp;
-			<a href="https://docs.qloapps.com/" class="footer_link _blank">
+			<a href="https://docs.Defenix HMS.com/" class="footer_link _blank">
 				<i class="icon-book"></i>
 				{l s='Training'}
 			</a>
