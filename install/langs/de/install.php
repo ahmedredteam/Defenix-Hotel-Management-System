@@ -1,16 +1,16 @@
 <?php
 return array(
 	'informations' => array(
-		'documentation' => 'https://docs.qloapps.com/',
+		'documentation' => 'https://docs.defenix.com/',
 		'documentation_upgrade' => 'https://webkul.uvdesk.com/',
-		'forum' => 'https://forums.qloapps.com/',
-		'blog' => 'https://qloapps.com/blog/',
+		'forum' => 'https://forums.defenix.com/',
+		'blog' => 'https://defenix.com/blog/',
 		'support' => 'https://webkul.uvdesk.com/',
 		'tutorial' => 'https://www.youtube.com/watch?v=BWoifR8INCE',
 		'tailored_help' => 'https://webkul.uvdesk.com/',
-		'contact' => 'https://qloapps.com/contact/',
-		'services' => 'https://qloapps.com/contact/',
-		'install_help' => 'https://qloapps.com/install-qloapps/',
+		'contact' => 'https://defenix.com/contact/',
+		'services' => 'https://defenix.com/contact/',
+		'install_help' => 'https://defenix.com/install-defenix/',
 	),
 	'translations' => array(
 		'An SQL error occurred for entity <i>%1$s</i>: <i>%2$s</i>' => 'Für die Entität <i>%1$s</i> ist ein SQL-Fehler aufgetreten: <i>%2$s</i>',
@@ -204,7 +204,7 @@ return array(
 		'Discover Your Website' => 'Entdecken Sie Ihre Website',
 		'Share your experience with your friends!' => 'Teilen Sie Ihre Erfahrungen mit Ihren Freunden!',
 		'I just built an online hotel booking website with Defenix HMS!' => 'Ich habe gerade mit Defenix HMS eine Online-Website zur Hotelbuchung erstellt!',
-		'See all the features here : https://docs.qloapps.com/' => 'Alle Funktionen finden Sie hier: https://docs.qloapps.com/',
+		'See all the features here : https://docs.defenix.com/' => 'Alle Funktionen finden Sie hier: https://docs.defenix.com/',
 		'Tweet' => 'Tweet',
 		'Share' => 'Aktie',
 		'Google+' => 'Google+',
